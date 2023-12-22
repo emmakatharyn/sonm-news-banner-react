@@ -1,32 +1,11 @@
 import React, { useState } from "react";
 import { CarouselItem } from "./CarouselItem";
+import items from "./items";
 
 import "./index.css";
 
 export const Carousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-
-  const items = [
-    {
-      title: "Open Enrollment for Plan Year 2024",
-      description:
-        "Organic artisan gastropub, vinyl lumbersexual quinoa sriracha flannel tote bag. Portland dreamcatcher thundercats, chillwave twee keytar flexitarian letterpress.",
-      image: require("./Media/banner10.png"),
-      link: "https://nmpsia.com/",
-    },
-    {
-      title: "Find Out More on This Topic",
-      description:
-        "Yr waistcoat hoodie, kale chips pug craft beer lomo. Paleo intelligentsia polaroid chambray, lo-fi synth quinoa stumptown chillwave. Mixtape tattooed hella, PBR&B master cleanse street art readymade mumblecore. ",
-      image: require("./Media/example2.svg"),
-    },
-    {
-      title: "You Don't Wanna Miss This Shit",
-      description:
-        "Etsy shabby chic ugh, meh selvage flexitarian pour-over PBR&B listicle. Roof party poutine VHS, typewriter trust fund XOXO cold-pressed seitan DIY.",
-      image: require("./Media/example3.svg"),
-    },
-  ];
 
   const updateIndex = (newIndex) => {
     if (newIndex < 0) {

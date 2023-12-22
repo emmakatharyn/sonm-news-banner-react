@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
-
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: "Roboto";
@@ -20,12 +22,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* padding-left: 4px; */
 }
 
 .inner {
   white-space: nowrap;
   transition: transform 0.3s;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  /* width: 100%; */
 }
 
 .carousel-item {
@@ -34,21 +38,37 @@ body {
   justify-content: center;
   height: 490px;
   background-color: #fff;
-
-  /* background-image: url("Media/banner10.png"); */
+  /* padding: 8px; */
+  width: 100%;
 }
+
+.btn.news-btn {
+  color: #fff;
+  background-color: #0d6efd;
+  display: inline-block;
+  font-size: 20px;
+  padding: 14px 18px;
+  margin-bottom: 6px;
+  text-decoration: none;
+}
+/* background-image: url("Media/banner10.png"); */
 
 /* .carousel-img {
   width: 250px;
   padding: 0 20px 0 20px;
 } */
 
+.carousel-item h4 {
+  color: #e5ebf1;
+  font-size: 32px;
+}
+
 .carousel-item-text {
   font-size: 1.15rem;
   margin: 40px 0 40px 0;
   /* padding: 0 20px 0 20px; */
   white-space: normal;
-  color: #617d98;
+  color: #e5ebf1;
 }
 
 .carousel-buttons {

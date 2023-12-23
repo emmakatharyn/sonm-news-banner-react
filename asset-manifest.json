@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/sonm-news-banner-react/static/css/main.3dfa1dea.css",
+    "main.js": "/sonm-news-banner-react/static/js/main.c5f7767d.js",
+    "static/media/luke-porter-NEqEC7qa9FM-unsplash.png": "/sonm-news-banner-react/static/media/luke-porter-NEqEC7qa9FM-unsplash.b42f9bcc6717430df36c.png",
+    "static/media/rainbow.jpg": "/sonm-news-banner-react/static/media/rainbow.5361b188387dccbef386.jpg",
+    "static/media/banner10.png": "/sonm-news-banner-react/static/media/banner10.a832bd235270d6850539.png",
+    "static/media/balloon-fiesta.jpg": "/sonm-news-banner-react/static/media/balloon-fiesta.6a089c6c52b7d05d54b5.jpg",
+    "static/media/tim-mossholder-H6eaxcGNQbU-unsplash.jpg": "/sonm-news-banner-react/static/media/tim-mossholder-H6eaxcGNQbU-unsplash.ec926ea8ca194ba6c972.jpg",
+    "static/media/national-cancer-institute-L8tWZT4CcVQ-unsplash.jpg": "/sonm-news-banner-react/static/media/national-cancer-institute-L8tWZT4CcVQ-unsplash.eddb7f5312a04c106375.jpg",
+    "static/media/sam-moghadam-khamseh-2rrsfMN4hn8-unsplash.jpg": "/sonm-news-banner-react/static/media/sam-moghadam-khamseh-2rrsfMN4hn8-unsplash.f1b13e182c151fb24dce.jpg",
+    "static/media/bret-kavanaugh-MIfUp3FA5ek-unsplash.jpg": "/sonm-news-banner-react/static/media/bret-kavanaugh-MIfUp3FA5ek-unsplash.5855f9bd1013196b40ad.jpg",
+    "index.html": "/sonm-news-banner-react/index.html",
+    "main.3dfa1dea.css.map": "/sonm-news-banner-react/static/css/main.3dfa1dea.css.map",
+    "main.c5f7767d.js.map": "/sonm-news-banner-react/static/js/main.c5f7767d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dfa1dea.css",
+    "static/js/main.c5f7767d.js"
+  ]
+}

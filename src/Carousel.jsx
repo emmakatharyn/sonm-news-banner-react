@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { CarouselItem } from "./CarouselItem";
 import items from "./items";
 
-import "./index.css";
+import "./carousel.css";
 
 export const Carousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
